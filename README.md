@@ -65,3 +65,25 @@ This experience has improved my approach to software development by encouraging:
 - C++
 - Standard Template Library (STL)
 - Command-line interface design
+
+## Reflection
+
+### What problem was being solved?
+
+The goal of this course project was to design and implement an advising assistance program that efficiently stores, sorts, and retrieves course data. The system needed to load structured data from a CSV file, validate prerequisite relationships, print courses in alphanumeric order, and allow advisors to search for individual courses.
+
+### How did you approach the problem?
+
+I approached the problem by first analyzing multiple data structures to determine which best satisfied the system requirements. Understanding time complexity and memory usage was vital here. I evaluated vector, hash table, and binary search tree implementations, comparing their performance characteristics. Because sorted output was a primary requirement, the Binary Search Tree was selected due to its natural ordering through in-order traversal.
+
+### How did you overcome roadblocks?
+
+Key challenges included handling file input validation, ensuring prerequisite integrity, and managing tree recursion correctly. I resolved these issues by breaking the problem into simpler, smaller functions, validating input in multiple passes, and carefully tracing recursive insert and search operations. Debugging and step by step testing ensured correctness.
+
+### How has this project expanded your approach to designing software?
+
+This project reinforced the importance of selecting the appropriate data structure based on system requirements rather than convenience. It emphasized evaluating algorithmic trade offs early in the design process. I now consider runtime complexity and scalability even more foundational elements of system architecture.
+
+### How has this project improved your coding practices?
+
+Working through this project improved my ability to write modular, readable, and maintainable code. I did my best to focus on clear function separation, consistent naming conventions, and defensive input validation. I know that this experience strengthened my understanding of how structured design leads to adaptable and extensible software.
